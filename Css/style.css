@@ -42,10 +42,3 @@ html,body{
 .content .btn:hover{
   color: #2196f3;
 }
-p{
-  font-size: 160%;
-  line-height: 200%;
-  text-align: justify;
-  margin: 3%;
-  font-family: sans-serif;
-}

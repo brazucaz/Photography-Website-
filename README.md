@@ -9,6 +9,7 @@ Creating a website for a friend so she can display her photography.
  |Html for gallery|*Complete|
  |Html for about|Complete|
  |Html for services|Complete|
+ |Html for Instafeed|-|
  |Php for services form|-|
  |Php for file upload|-|
  |JavaScript for image slideshow|Complete|
@@ -20,8 +21,6 @@ Creating a website for a friend so she can display her photography.
  |CSS styling|IP|
  |Visibility API|-|
  |Instafeed API|-|
- 
+
 - *(denotes that this is likely to change as the project progresses)
 - IP - In progress
- 
- 

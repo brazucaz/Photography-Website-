@@ -10,14 +10,14 @@ function reset() {
   }
 }
 
+//Automation for sliding images
 function carousel(){
    reset();
    current++;
-   if (current > sliderImages.length){
+   if (current > sliderImages.length)
      current = 1
-    }
    sliderImages[current-1].style.display = "block";
-   setTimeout(carousel, 7000); // Change image every 7 seconds
+   setTimeout(carousel, 7000);
 }
 
 // Init slider

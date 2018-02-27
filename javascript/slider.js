@@ -2,6 +2,7 @@ let sliderImages = document.querySelectorAll(".slide"),
 arrowLeft = document.querySelector("#arrow-left"),
 arrowRight = document.querySelector("#arrow-right"),
 current = 0;
+timer = 7000;
 
 // Clear all images
 function reset() {
@@ -17,7 +18,7 @@ function carousel(){
    if (current > sliderImages.length)
      current = 1
    sliderImages[current-1].style.display = "block";
-   setTimeout(carousel, 7000);
+   setTimeout(carousel, timer);
 }
 
 // Init slider

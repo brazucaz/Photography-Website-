@@ -10,8 +10,19 @@ function reset() {
   }
 }
 
+function carousel(){
+   reset();
+   current++;
+   if (current > sliderImages.length){
+     current = 1
+    }
+   sliderImages[current-1].style.display = "block";
+   setTimeout(carousel, 7000); // Change image every 7 seconds
+}
+
 // Init slider
 function startSlide() {
+  carousel();
   reset();
   sliderImages[0].style.display = "block";
 }
@@ -20,12 +31,14 @@ function startSlide() {
 function slideLeft() {
   reset();
   sliderImages[current - 1].style.display = "block";
+
   current--;
 }
 
 // Show next
 function slideRight() {
   reset();
+
   sliderImages[current + 1].style.display = "block";
   current++;
 }

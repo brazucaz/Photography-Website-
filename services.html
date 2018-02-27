@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width = device-width">
@@ -9,70 +10,71 @@
   <meta name="keywords" content="web design, photography, business">
   <meta name="author" content="Cole Sellers">
   <title> Nicole Trost Photography</title>
-  <link rel="stylesheet" href = " ./css/style.css">
+  <link rel="stylesheet" href=" ./css/style.css">
 </head>
 
-  <body>
-    <header>
-      <div class ="container">
-          <div id="branding">
-            <h1>Nicole Trost Photography</h1>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li class="current"><a href ="services.html"> Services</a></li>
-            </ul>
-          </nav>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Nicole Trost Photography</h1>
       </div>
-    </header>
+      <nav>
+        <ul>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="current"><a href="services.html"> Services</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <section id="main">
-      <div class="container">
-        <article id="main-col">
-          <h1 class="page-title">Services</h1>
-          <ul id="services">
-            <li>
-              <h3>Sample service 1</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
-						  <p>Pricing: $1,000 - $3,000</p>
-            </li>
-            <li>
-              <h3>Sample Service 2</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
-						  <p>Pricing: $250 per month</p>
-            </li>
-            <li>
-              <h3>sample service 3</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
-						  <p>Pricing: $25 per month</p>
-            </li>
-          </ul>
-        </article>
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">Services</h1>
+        <ul id="services">
+          <li>
+            <h3>Sample service 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+            <p>Pricing: $1,000 - $3,000</p>
+          </li>
+          <li>
+            <h3>Sample Service 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+            <p>Pricing: $250 per month</p>
+          </li>
+          <li>
+            <h3>sample service 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+            <p>Pricing: $25 per month</p>
+          </li>
+        </ul>
+      </article>
 
-        <aside id="sidebar">
-          <div class="dark">
-            <h3>Get A Quote</h3>
-            <form class="quote" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-  						<div>
-  							<label>Name</label><br>
-  							<input type="text" placeholder="Name" name="visitorName">
-  						</div>
-  						<div>
-  							<label>Email</label><br>
-  							<input type="email" placeholder="Email Address" name="visitorEmail">
-  						</div>
-  						<div>
-  							<label>Message</label><br>
-  							<textarea placeholder="Message" name="message"></textarea>
-  						</div>
-  						<button class="button_1" type="submit">Send</button>
-					</form>
-          </div>
-        </aside>
-      </div>
-    </section>
+      <aside id="sidebar">
+        <div class="dark">
+          <h3>Get A Quote</h3>
+          <form class="quote" method="post" action="\php\form2email.php">
+            <div>
+              <label>Name</label><br>
+              <input type="text" placeholder="Name" name="visitorName">
+            </div>
+            <div>
+              <label>Email</label><br>
+              <input type="email" placeholder="Email Address" name="visitorEmail">
+            </div>
+            <div>
+              <label>Message</label><br>
+              <textarea placeholder="Message" name="message"></textarea>
+            </div>
+            <button class="button_1" type="submit">Send</button>
+          </form>
+        </div>
+      </aside>
+    </div>
+  </section>
 
-  </body>
+</body>
+
 </html>

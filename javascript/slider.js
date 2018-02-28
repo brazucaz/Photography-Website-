@@ -22,6 +22,7 @@ image and then call setTimeout which will use the timer for the time and
 it will then recursivly call itself.
 *******************************************************************************/
 function carousel(){
+
    reset();
    current++;
    if (current > sliderImages.length)

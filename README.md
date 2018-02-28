@@ -9,12 +9,12 @@ Creating a website for a friend so she can display her photography.
  |Html for gallery|*Complete|
  |Html for about|Complete|
  |Html for services|Complete|
- |Html for Instafeed|-|
- |Php for services form|-|
- |Php for file upload|-|
+ |Html for Instafeed|Deleted|
+ |Php for services form|IP|
+ |Php for file upload|IP|
  |JavaScript for image slideshow|Complete|
  |Carousel function for gallery|Complete|
- |Image storage|-|
+ |Image storage|IP|
  |Photo grid|-|
  |Formatting|IP|
  |Build/run test cases|-|

@@ -7,12 +7,6 @@ html, body{
   background-image: linear-gradient(to bottom right, #4d4d4d, #ffffff);
 }
 
-.container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
-}
-
 .dark{
   padding:15px;
   background: #333333;
@@ -209,4 +203,17 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-col{
   float:left;
   width:65%;
+}
+
+/**Instafeed**/
+.instaimg{
+  overflow: hidden;
+  height: 255px;
+  margin-bottom: 30px;
+}
+
+.instaimg img:hover{
+  opacity: 0.8;
+  -moz-opacity:0.8;
+  -webkit-opacity:0.8;
 }

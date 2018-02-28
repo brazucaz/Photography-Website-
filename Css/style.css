@@ -209,7 +209,7 @@ article#main-col{
 .instaimg{
   overflow: hidden;
   height: 255px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .instaimg img:hover{

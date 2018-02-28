@@ -20,7 +20,7 @@ Creating a website for a friend so she can display her photography.
  |Build/run test cases|-|
  |CSS styling|IP|
  |Visibility API|-|
- |Instafeed API|-|
+ |Instafeed API|Completed|
 
 - *(denotes that this is likely to change as the project progresses)
 - IP - In progress

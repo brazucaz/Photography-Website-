@@ -134,15 +134,15 @@ header nav ul li a:hover {
 }
 
 .slide1 {
-  background: url(../img/GTO.jpg) no-repeat 50% 50%;
+  background: url(../php/uploads/GTO.jpg) no-repeat 50% 50%;
   background-size: auto 80%;
 }
 .slide2 {
-  background: url(../img/JEEP.jpg) no-repeat 50% 50%;
+  background: url(../php/uploads/JEEP.jpg) no-repeat 50% 50%;
   background-size: auto 80%;
 }
 .slide3 {
-  background: url(../img/BomberV2.jpg) no-repeat 50% 50%;
+  background: url(../php/uploads/BomberV2.jpg) no-repeat 50% 50%;
   background-size: auto 80%;
 }
 

@@ -27,7 +27,7 @@ ul{
   width: 100%;
   height: 100%;
   margin: auto;
-  background: url(../img/JEEP.jpg) no-repeat 50% 50%;
+  background: url(../php/uploads/JEEP.jpg) no-repeat 50% 50%;
   top: 0;
   display: table;
   background-size: cover;

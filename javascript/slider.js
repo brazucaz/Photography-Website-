@@ -9,9 +9,8 @@ This function is responsible for reseting the photos, it basically repaints the
 screen.
 *******************************************************************************/
 function reset() {
-  for (let i = 0; i < sliderImages.length; i++) {
+  for (let i = 0; i < sliderImages.length; i++)
     sliderImages[i].style.display = "none";
-  }
 }
 /*******************************************************************************
 This function will call the reset in order to repaint the screen, it will then
@@ -22,7 +21,6 @@ image and then call setTimeout which will use the timer for the time and
 it will then recursivly call itself.
 *******************************************************************************/
 function carousel(){
-
    reset();
    current++;
    if (current > sliderImages.length)
@@ -64,9 +62,8 @@ function slideRight() {
   it will show the last image. After this it will call the slide left function.
 *******************************************************************************/
 arrowLeft.addEventListener("click", function() {
-  if (current === 0) {
+  if (current === 0)
     current = sliderImages.length;
-  }
   slideLeft();
 });
 /*******************************************************************************
@@ -74,9 +71,8 @@ Listener for the right arrow, if the current varibale is the length of the
 slideImages it will set the current to the first photo and call the slideRight.
 *******************************************************************************/
 arrowRight.addEventListener("click", function() {
-  if (current === sliderImages.length - 1) {
+  if (current === sliderImages.length - 1)
     current = -1;
-  }
   slideRight();
 });
 

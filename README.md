@@ -1,7 +1,7 @@
 # Photography-Website-
-Creating a website for a friend so she can display her photography.
-The website can be found at nicoletrostphotography.com
-Release #1: March 3rd, 2018
+Creating a website for a friend so she can display her photography.< /br>
+The website can be found at nicoletrostphotography.com< /br>
+Release #1: March 3rd, 2018< /br>
 
 
 ### To do:

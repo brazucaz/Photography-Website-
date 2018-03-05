@@ -3,7 +3,7 @@ Creating a website for a friend so she can display her photography.
 
 
 ### To do:
- |Tasks|Completed|Time Taken|-|
+ |Tasks|Completed|Time Taken|Comments|
  |-|-|-|-|
  |Html for index|Complete|.25hrs|-|
  |Html for gallery|IP|1.5hrs|-|

@@ -1,7 +1,7 @@
 # Photography-Website-
-Creating a website for a friend so she can display her photography.< /br>
-The website can be found at nicoletrostphotography.com< /br>
-Release #1: March 3rd, 2018< /br>
+- Creating a website for a friend so she can display her photography.
+- The website can be found [here] (nicoletrostphotography.com)
+- Release #1: March 3rd, 2018
 
 
 ### To do:
@@ -13,7 +13,7 @@ Release #1: March 3rd, 2018< /br>
  |Html for services|Complete|.5hrs|-|
  |Html for Instafeed|Completed|0.5hrs|-|
  |Php for services form|IP|3hrs|At the moment this doesnt work, needs some work|
- |Php for file upload|Complete|2hr|As of right now anyone can upload, I believe, need to make it so only ceratin people can|
+ |Php for file upload|Complete|2hr|As of right now anyone can upload, I believe, need to make it so only certain people can|
  |JavaScript for image slideshow|Complete|3hrs|This works for 3 images need to have it work for every image in folder|
  |Carousel function for gallery|Complete|2hrs|-|
  |Image storage|IP|Cmomplete|Same as for upload, anyone can store photos and anyone can access this folder.|

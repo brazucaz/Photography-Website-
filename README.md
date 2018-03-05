@@ -1,6 +1,6 @@
 # Photography-Website-
 - Creating a website for a friend so she can display her photography.
-- The website can be found [here] (nicoletrostphotography.com)
+- The website can be found here. nicoletrostphotography.com
 - Release #1: March 3rd, 2018
 
 

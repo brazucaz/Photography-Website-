@@ -13,7 +13,9 @@ if(isset($_POST['submit'])){
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-    ('Location: services.html'); 
+
+    //this should redirect the page back to the services.html page...
+    //echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    header('Location: services.html');
     }
  ?>

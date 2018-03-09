@@ -56,20 +56,12 @@
         <aside id="sidebar">
           <div class="dark">
             <h3>Get A Quote</h3>
-            <form action="./php/formtest.php" class="quote" method="post" enctype="multipart/form-data">
-  						<div>
-  							<label>Name</label><br>
-  							<input type="text" placeholder="Name" name="name">
-  						</div>
-  						<div>
-  							<label>Email</label><br>
-  							<input type="email" placeholder="email" name="visitorEmail">
-  						</div>
-  						<div>
-  							<label>Message</label><br>
-  							<textarea placeholder="Message" name="message"></textarea>
-  						</div>
-  						<button class="button_1" type="submit">Send</button>
+            <form action="./php/form2email.php" class="quote" method="post" enctype="multipart/form-data">
+              First Name: <input type="text" name="first_name"><br>
+              Last Name: <input type="text" name="last_name"><br>
+              Email: <input type="text" name="email"><br>
+              Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+              <input type="submit" name="submit" value="Submit">
 					</form>
           </div>
         </aside>

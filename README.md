@@ -8,7 +8,7 @@
  |Tasks|Completed|Time Taken|Comments|
  |-|-|-|-|
  |Html for index|Complete|.25hrs|-|
- |Html for gallery|IP|1.5hrs|-|
+ |Html for gallery|IP|1.5hrs|Still need to make the gallery section|
  |Html for about|Complete|1hrs|-|
  |Html for services|Complete|.5hrs|-|
  |Html for Instafeed|Completed|0.5hrs|-|

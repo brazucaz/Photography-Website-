@@ -23,6 +23,6 @@
  |CSS styling|IP|4hrs|Constantly in progress, will be last thing to be complete|
  |Visibility API|IP|-|Need to do some more research in able to implement this|
  |Instafeed API|Completed|1.5hrs|Works great, may need to format the grid better|
- |form and upload validation|-|Need to do in order to prevent spam bots|
+ |form and upload validation|-|-|Need to do in order to prevent spam bots|
 
 - IP - In progress
